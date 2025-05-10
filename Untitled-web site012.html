@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="width=divice=with,initial=scale=1">
+    <title>Digital Marketing </title>
+    <meta Name="description"content="this website help your web site to increase traffic">
+    <meta desription="this webbsite creat by Maen Alsaqer">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #351010;
+            background-color: #351010;
+        }
+
+        /* Header */
+        header {
+            background: #351010;
+            color: #351010;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(58, 14, 14, 0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #270b0b;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav a:hover {
+            background-color: #351010;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #351010, #351010);
+            color: #351010;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            background: #351010;
+            color: #351010;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background: #351010;
+            color: #351010;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .service {
+            background: #351010;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 2rem 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .service h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .service p {
+            color: #351010;
+            font-size: 1rem;
+        }
+
+        /* About Section */
+        .about {
+            background: #351010;
+            padding: 2rem 1rem;
+        }
+
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+        }
+
+        .about p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #351010;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact button {
+            background: #351010;
+            color: #351010;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background: #351010;
+        }
+
+        /* Footer */
+        footer {
+            background: #351010;
+            color: #351010;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Digital Marketing</div>
+            <nav class="nav">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Digital advertising</h1>
+        <p>We help your business grow with proven digital strategies and solutions.</p>
+        <button>Get Started</button>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Improve your website's visibility on search engines and drive organic traffic.</p>
+            </div>
+            <div class="service">
+                <h3>Social Media Marketing</h3>
+                <p>Reach your target audience with engaging social media campaigns.</p>
+            </div>
+            <div class="service">
+                <h3>Content Creation</h3>
+                <p>Create compelling content that resonates with your audience.</p>
+            </div>
+            <div class="service">
+                <h3>Pay-Per-Click Ads</h3>
+                <p>Maximize your ROI with targeted paid advertising campaigns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate digital marketers dedicated to helping businesses thrive in the digital era.
+                With years of experience and proven results, we are your trusted partner in growth.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We'd love to hear from you. Reach out to us today!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 DigiMarket. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
